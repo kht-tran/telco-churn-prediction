@@ -1,4 +1,4 @@
-# Telco Customer Churn — Predictive Modeling
+# Telco Customer Churn: Predictive Modeling
 
 ## Overview
 Customer churn is a major revenue drain for telecom providers, and identifying at-risk customers early enables targeted, cost-effective retention campaigns. 
@@ -34,5 +34,5 @@ Uses the publicly available IBM/Kaggle Telco Customer Churn dataset (7,043 custo
 - matplotlib, seaborn
 
 ## Repository Contents
-- `telco_churn_modeling.ipynb`: full pipeline - data prep, model tuning/comparison, threshold optimization, evaluation, and interpretation
+- `notebook/telco_churn_modeling.ipynb`: full pipeline - data prep, model tuning/comparison, threshold optimization, evaluation, and interpretation
 - `data/Telco-Customer-Churn.csv`: raw dataset
