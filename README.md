@@ -16,7 +16,7 @@ This project builds and evaluates a churn prediction model, then translates its 
 
 ## Key Results
 - **Selected model:** Logistic Regression (chosen over Random Forest and XGBoost, which performed comparably on ROC-AUC, on grounds of interpretability)
-- **Test ROC-AUC:** 0.831 (CV mean: 0.843 ± 0.020 — test performance is consistent with cross-validation, indicating a stable model)
+- **Test ROC-AUC:** 0.831 (CV mean: 0.843 ± 0.020, test performance is consistent with cross-validation, indicating a stable model)
 - **Optimized decision threshold:** 0.10 (chosen to maximize net business value rather than the default 0.5)
 - **Test set recall (Churn class):** 0.94, precision: 0.40, F1: 0.56 — the low threshold intentionally trades precision for catching the large majority of churners
 - **Estimated net business value:** around $470K per deployment cycle on the validation set, based on estimated customer LTV (around $1,464) and retention campaign cost (around $59)
